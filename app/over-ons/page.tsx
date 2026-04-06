@@ -144,8 +144,8 @@ export default function OverOnsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="flex flex-col gap-1">
               <p className="font-display font-bold text-sm uppercase tracking-wide text-foreground">K.C. NTOMATA LIMITED</p>
-              <p className="text-sm text-muted-foreground font-sans">Stylianou Lena, 24</p>
-              <p className="text-sm text-muted-foreground font-sans">Christiana Court, Flat/Office 202</p>
+              <p className="text-sm text-muted-foreground font-sans">Stylianou Lena, </p>
+              <p className="text-sm text-muted-foreground font-sans">24 Christiana Court, Flat/Office 202</p>
               <p className="text-sm text-muted-foreground font-sans">Strovolos, 2019 Nicosia</p>
               <p className="text-sm text-muted-foreground font-sans">Cyprus</p>
             </div>

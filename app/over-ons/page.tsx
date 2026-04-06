@@ -164,10 +164,6 @@ export default function OverOnsPage() {
               </p>
               <p className="text-sm text-muted-foreground font-sans">
                 <span className="text-foreground font-semibold">E-mail:</span> info@netherlandsmatchtours.com
-              </p>
-              <p className="text-sm text-muted-foreground font-sans">
-                <span className="text-foreground font-semibold">Telefoon:</span> +31 (0)20 123 45 67
-              </p>
             </div>
           </div>
         </div>

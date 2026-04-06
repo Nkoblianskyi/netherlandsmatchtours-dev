@@ -10,32 +10,26 @@ export const metadata: Metadata = {
 
 const values = [
   {
-    icon: Globe,
     title: 'Europese ervaring',
     description: 'Wij kennen de voetbalsteden van Europa door en door. Van de buurtkroeg voor de match tot de beste uitlooproute daarna — onze gidsen zijn thuis op elk continent.',
   },
   {
-    icon: Shield,
     title: 'Zorgeloos reizen',
     description: 'Van vervoer en hotel tot kaartjes en restaurantreservering — alles is geregeld voor u bij aanvang van uw booking. U hoeft alleen maar te genieten.',
   },
   {
-    icon: Users,
     title: 'Kleine, persoonlijke groepen',
     description: 'Geen anoniem massatoerisme. Onze pakketten zijn ontworpen voor intieme groepservaringen waarbij elke deelnemer de aandacht krijgt die hij verdient.',
   },
   {
-    icon: Headphones,
     title: 'Nederlandstalige begeleiding',
     description: 'Elk pakket wordt begeleid door een Nederlandstalige reisleider die niet alleen de weg kent, maar ook de cultuur en de voetbalgeschiedenis van elke bestemming.',
   },
   {
-    icon: MapPin,
     title: 'Lokale authenticiteit',
     description: 'Wij werken samen met lokale partners op elke bestemming om u de meest authentieke ervaring te bieden — ver weg van de toeristische paden.',
   },
   {
-    icon: Award,
     title: 'Kwaliteitsgarantie',
     description: 'Al onze tours worden zorgvuldig samengesteld en gecureerd. Als er iets niet aan uw verwachtingen voldoet, staan wij klaar om het op te lossen.',
   },
@@ -116,9 +110,6 @@ export default function OverOnsPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {values.map((v) => (
               <div key={v.title} className="bg-card border border-border p-5 flex flex-col gap-3">
-                <div className="w-10 h-10 bg-primary/10 flex items-center justify-center">
-                  <v.icon size={20} className="text-primary" />
-                </div>
                 <h3 className="font-display font-bold text-sm uppercase tracking-wide text-foreground">{v.title}</h3>
                 <p className="text-xs text-muted-foreground font-sans leading-relaxed">{v.description}</p>
               </div>
@@ -164,6 +155,7 @@ export default function OverOnsPage() {
               </p>
               <p className="text-sm text-muted-foreground font-sans">
                 <span className="text-foreground font-semibold">E-mail:</span> info@netherlandsmatchtours.com
+              </p>
             </div>
           </div>
         </div>

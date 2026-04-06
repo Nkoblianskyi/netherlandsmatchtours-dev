@@ -62,21 +62,6 @@ export default function ContactPage() {
 
                 <div className="flex items-start gap-3">
                   <div className="w-9 h-9 bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
-                    <Phone size={16} className="text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-xs text-muted-foreground font-display uppercase tracking-wide">Telefoon</p>
-                    <a
-                      href="tel:+31201234567"
-                      className="text-sm font-sans text-foreground hover:text-primary transition-colors"
-                    >
-                      +31 (0)20 123 45 67
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-9 h-9 bg-primary/10 flex items-center justify-center shrink-0 mt-0.5">
                     <Clock size={16} className="text-primary" />
                   </div>
                   <div>

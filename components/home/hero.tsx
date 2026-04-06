@@ -5,7 +5,7 @@ import { ArrowRight } from 'lucide-react'
 export function Hero() {
   return (
     <section
-      className="relative min-h-[92vh] flex items-end pb-16 pt-28 overflow-hidden"
+      className="relative min-h-[92vh] flex items-end pb-14 pt-14 overflow-hidden"
       aria-label="Welkomstbanner"
     >
       {/* Background image */}

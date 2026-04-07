@@ -18,15 +18,15 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'NetherlandsMatchTours – Sporttochten in Nederland & Europa',
+  title: 'NetherlandsMatchTours – Actieve tours in Nederland & Europa',
   description:
-    'Ontdek onvergetelijke sporttochten in Nederland en door heel Europa. Voetbalreizen, weekendpakketten en exclusieve sportervaringen — volledig georganiseerd.',
+    'Ontdek avontuurlijke, actieve tours in Nederland en door heel Europa. Fietsen, wandelen, mototochten en meerdaagse bergtreks — volledig georganiseerd.',
   keywords: [
-    'sporttochten',
-    'voetbalreizen',
-    'sportreizen nederland',
-    'europese voetbaltochten',
-    'sportevenementen',
+    'actieve tours',
+    'fietsreizen nederland',
+    'actieve reizen europa',
+    'bergtrek alpen',
+    'avontuurlijke sportreis',
   ],
   authors: [{ name: 'NetherlandsMatchTours' }],
   creator: 'NetherlandsMatchTours',
@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     locale: 'nl_NL',
     url: 'https://netherlandsmatchtours.com',
     siteName: 'NetherlandsMatchTours',
-    title: 'NetherlandsMatchTours – Sporttochten in Nederland & Europa',
+    title: 'NetherlandsMatchTours – Actieve tours in Nederland & Europa',
     description:
-      'Ontdek onvergetelijke sporttochten in Nederland en door heel Europa.',
+      'Ontdek onvergetelijke actieve tours in Nederland en door heel Europa.',
     images: [{ url: '/images/hero-bg.jpg', width: 1200, height: 630 }],
   },
 }

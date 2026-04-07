@@ -12,7 +12,7 @@ export function Footer() {
               Netherlands<span className="text-primary">Match</span>Tours
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed font-sans">
-              Uw specialist in sporttochten door Nederland en heel Europa. Voetbalreizen, weekendpakketten en unieke sportervaringen — volledig verzorgd.
+              Uw specialist in avontuurlijke, actieve tours door Nederland en heel Europa. Fietsen, wandelen, mototochten, mountainbike en bergtreks — volledig verzorgd.
             </p>
             <div className="flex flex-col gap-2 mt-1">
               <a href="mailto:info@netherlandsmatchtours.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">

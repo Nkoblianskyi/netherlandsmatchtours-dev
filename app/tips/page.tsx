@@ -3,45 +3,46 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Reizigersgids & Tips — NetherlandsMatchTours',
-  description: 'Praktische reizigersgids voor sporttochten: wat inpakken, hoe aankomst, fotograferen, weer, veiligheid en meer.',
+  description: 'Praktische reizigersgids voor actieve tours: wat inpakken, voorbereiding, fotograferen, weer, veiligheid en meer.',
 }
 
 const sections = [
   {
     id: 'inpakken',
     icon: Luggage,
-    title: 'Slim inpakken voor een sportweekend',
+    title: 'Slim inpakken voor een actieve tour',
     tips: [
-      'Breng altijd een supporterssjaal mee — ook als u naar het buitenland reist. Het is uw visuele identiteit als supporter.',
-      'Comfortabele wandelschoenen zijn essentieel. U legt gemiddeld 8–12 km per dag af bij een sportweekend in de stad.',
-      'Een lichte, waterdichte regenjas is onmisbaar in Londen, maar ook in Amsterdam en Parijs.',
-      'Zorg voor voldoende lokale valuta of een kaart zonder buitenlandse transactiekosten.',
-      'Breng een powerbank mee — lang matchdays vergen veel van uw telefoononbatterij.',
-      'Kopie van uw identiteitsbewijs en boeking altijd apart bewaren van het origineel.',
+      'Kies lichtgewicht kleding in lagen: een basislaag, een isolerende middenlaag en een windproof buitenlaag.',
+      'Fietsers: padded fietsbroek en stijve fietsschoenen zijn een must voor dagrittten van 50+ km.',
+      'Wandelaars: goed ingelopen trekkingschoenen zijn belangrijker dan het merk. Loop ze thuis minimaal 3 weken in.',
+      'Altijd een waterdichte regenlaag mee, zelfs in de zomer — bergweer is onvoorspelbaar.',
+      'Breng een powerbank mee — GPX-apps en navigatie vergen veel van uw telefoonbatterij.',
+      'Compressiezakken verkleinnen uw kleding volume in de rugzak met tot 50%. Ideaal voor meerdaagse trektochten.',
     ],
   },
   {
-    id: 'aankomst',
+    id: 'voorbereiding',
     icon: Clock,
-    title: 'Tijdig aanwezig: aankomsttips per stadion',
+    title: 'Training en voorbereiding',
     tips: [
-      'Europese stadions hebben striktere veiligheidscontroles dan in Nederland. Reken op 30–45 minuten wachttijd bij de ingang.',
-      'Kom minimaal 90 minuten voor aftrap aan bij de stadioningang — zeker bij internationale wedstrijden.',
-      'Uw e-ticket of papieren kaartje moet direct beschikbaar zijn bij de poort. Sla tickets niet diep verstopt op uw telefoon op.',
-      'Controleer de specifieke regels van het stadion over tassen en verboden voorwerpen. Veel stadions hanteren een no-bag-beleid voor grote tassen.',
-      'Verken de buurt van het stadion 2–3 uur voor de wedstrijd — de sfeer in de omliggende cafés is vaak net zo leuk als het stadion zelf.',
+      'Start minimaal 6 weken voor vertrek met een opbouwend trainingsschema passend bij uw tour-niveau.',
+      'Fiets- en mototours: zorg dat u de geplande etappeafstand thuis comfortabel kunt rijden voor vertrek.',
+      'Bergwandelaars: trainingstochten met hoogteverschil zijn essentieel — vlak lopen voorbereidt u niet op 800+ meter klimmen per dag.',
+      'Oefen met uw uitrusting thuis: weet hoe uw tent, kookset of fietsreparatieset werkt voor u vertrekt.',
+      'Raadpleeg uw huisarts bij twijfels over conditie of gezondheid voor intensieve tours.',
     ],
   },
   {
     id: 'fotograferen',
     icon: Camera,
-    title: 'Fotograferen in het stadion: wat mag?',
+    title: 'Fotograferen onderweg: tips',
     tips: [
-      'Smartphones en compacte cameras zijn vrijwel overal toegestaan voor persoonlijk gebruik.',
-      'Losse objectieven en professionele camera\'s worden op de meeste stadions verboden.',
-      'Vraag altijd vooraf bij uw gids of de begeleider naar de specifieke regels van het betreffende stadion.',
-      'Flitsfotografie kan hinderlijk zijn voor spelers en omstanders — gebruik hem liever niet tijdens de wedstrijd.',
-      'Sociale media-posts vanuit het stadion zijn welkom — maar let op het tijdstip: live resultaten hebben rechten die sommige clubs handhaven.',
+      'Gouden uur (30 min na zonsopgang en voor zonsondergang) levert de beste natuurfoto\'s op bergpassen.',
+      'Smartphones zijn ideaal voor onderweg: licht, altijd bij de hand en moderne toestellen presteren uitstekend.',
+      'Actiecamera\'s (zoals GoPro-alternatieven) zijn perfect voor fiets- en motoshots — bevestig ze stuurstang of helm.',
+      'Stop nooit alleen om te fotograferen op smalle bergpaden: stop altijd op een brede, veilige plek.',
+      'Bescherm uw camera/telefoon tegen regen en stof met een waterdichte hoes of drybag.',
+      'Maak dagelijks backups van uw foto\'s — een externe schijf of cloud-sync voorkomt verlies bij storingen.',
     ],
   },
   {
@@ -49,12 +50,12 @@ const sections = [
     icon: Wind,
     title: 'Weersomstandigheden in Europa',
     tips: [
-      'Londen: bewolkt en regenachtig het hele jaar door. Altijd een regenjas meenemen, ongeacht het seizoen.',
-      'Barcelona & Madrid: warm en zonnig van april tot november. Zonnebrandcrème en een waterfles zijn essentieel.',
-      'Milaan: aangenaam lenteklimaat in het voorjaar, heet in de zomer. In de herfst kan het fris worden.',
-      'Parijs: wisselvallig het hele jaar door. Gelaagde kleding is de beste aanpak.',
-      'Dortmund & de Ruhr: koud en bewolkt in de herfst en winter. Warme lagen zijn een must voor avondwedstrijden.',
-      'Amsterdam: typisch Hollands — regen is altijd mogelijk. Doch ook echte zonnige dagen zijn niet zeldzaam.',
+      'Alpen en Pyreneeën: bergweer kan snel omslaan. Controleer altijd de bergweersapp (MeteoBlue of Yr.no) voor vertrek.',
+      'Nederland en Zeeland: regen is altijd mogelijk. Een waterdichte laag en fietsbroek zijn het hele jaar door essentieel.',
+      'Noorwegen en Scandinavië: zomers aangenaam maar koele avonden — neem altijd een fleece en een windjas mee.',
+      'Spanje en Zuid-Europa: hoge temperaturen in de zomer (30–38°C). Vroeg vertrekken (voor 10:00) en uitrusten in de middag.',
+      'Hoogte in de Alpen: temperatuur daalt ca. 6°C per 1000 meter stijging. Op een 2500m-pas is het soms 15°C kouder dan in het dal.',
+      'Bij onweer in de bergen: onmiddellijk afdalen naar lager terrein. Sta nooit op een open bergkam tijdens bliksem.',
     ],
   },
   {
@@ -62,11 +63,12 @@ const sections = [
     icon: ShieldCheck,
     title: 'Veiligheid onderweg',
     tips: [
-      'Laat uw paspoort in het hotel en draag een kopie bij u.',
-      'Bewaar portemonnee en telefoon in een binnenzak of anti-diefstaltasje in drukke gebieden.',
-      'Schrijf het noodtelefoonnummer van uw gids en de lokale hulpdiensten altijd op voordat u het hotel verlaat.',
-      'Bij grote mensenmassa\'s na de wedstrijd: volg altijd de instructies van stewards en politie.',
-      'Bewaar uw wedstrijdticket tot na het verlaten van het stadion — u heeft het nodig bij de uitgang.',
+      'Vertel altijd iemand (gids of medereiziger) uw geplande route en verwachte aankomsttijd.',
+      'Draag fietshelmers, kniebeschermers en andere bescherming bij mountainbike en moto — ook op "makkelijke" etappes.',
+      'Bewaar noodcontactgegevens offline op uw telefoon: uw gids, lokale hulpdiensten en de ambassade.',
+      'Berg-EHBO: leer de basisregels voor blaren, verstuikingen en uitputting voor u vertrekt.',
+      'Deel uw GPS-locatie met een vertrouwde contactpersoon thuis via een tracking-app tijdens meerdaagse trektochten.',
+      'Sluit een reisverzekering af die actieve activiteiten en bergevacuatie dekt — standaard reisverzekeringen dekken dit vaak niet.',
     ],
   },
   {
@@ -74,10 +76,10 @@ const sections = [
     icon: CreditCard,
     title: 'Betalen en valuta',
     tips: [
-      'In het eurogebied (Nederland, België, Duitsland, Spanje, Italië, Frankrijk) betaalt u met euro. Engeland gebruikt het Britse pond.',
-      'Kaartbetalingen zijn vrijwel overal geaccepteerd. Toch is het handig om ook lokale contanten bij te hebben voor kleine aankopen.',
+      'In het eurogebied (Nederland, België, Duitsland, Spanje, Italië, Frankrijk) betaalt u met euro. Noorwegen gebruikt de Noorse kroon.',
+      'Kaartbetalingen zijn vrijwel overal geaccepteerd. Toch is het handig om ook lokale contanten bij te hebben voor berghutten en kleine dorpen.',
       'Gebruik een kaart zonder buitenlandse transactiekosten om verrassingen te voorkomen.',
-      'In stadions zijn prijzen voor voedsel en drank doorgaans hoger dan daarbuiten. Eet voor de wedstrijd in de stad.',
+      'In afgelegen berggebieden zijn er soms geen pinautomaten. Neem genoeg contant geld mee voor 2–3 dagen.',
     ],
   },
   {
@@ -85,11 +87,11 @@ const sections = [
     icon: Globe,
     title: 'Culturele etiquette per land',
     tips: [
-      'Engeland: begroet mensen vriendelijk maar behoudend. Wachtrijen worden serieus genomen — doe het na.',
+      'Noorwegen: respect voor natuur is fundamenteel. "Leave no trace" — neem al uw afval mee.',
       'Spanje: laat ruimte voor het eetritme. De Spanjaarden eten laat — lunch om 14:00 en diner om 21:00 of later.',
-      'Italië: kleed u net iets netter dan thuis. Italianen hechten veel waarde aan presentatie.',
-      'Duitsland: stiptheid is norm. Als de begeleider zegt "vertrek om 14:00", betekent dat ook echt 14:00.',
-      'Frankrijk: een poging tot Frans wordt altijd gewaardeerd. Een simpel "Bonjour" opent deuren.',
+      'Italië: kleed u net iets netter dan thuis. Italianen hechten veel waarde aan presentatie, ook op de camping.',
+      'Oostenrijk: rustig en beleefd in bergdorpjes. Groet wandelaars die u passeert — dat is de norm.',
+      'Frankrijk: een poging tot Frans wordt altijd gewaardeerd. Een simpel "Bonjour" en "Merci" opent veel deuren.',
     ],
   },
   {
@@ -97,11 +99,11 @@ const sections = [
     icon: Utensils,
     title: 'Eten & drinken onderweg',
     tips: [
-      'Vermijd restaurants direct voor het stadion — die zijn duurder en drukker. Ga 2–3 straten verderop.',
-      'Vraag uw gids naar zijn persoonlijke aanbevelingen: zij kennen de beste locals.',
-      'Drinkwater is overal goedkoop te kopen. In warme landen (Spanje, Italië) is 1,5 liter per dag het minimum.',
-      'Pre-match maaltijden: kies voor koolhydratenrijke, lichte maaltijden die u energie geven maar niet zwaar op de maag liggen.',
-      'Alcohol: geniet verantwoord. Stadions in veel landen hebben strikte regels over alcohol in het stadiongebied.',
+      'Voor langere ritten en trektochten: eet koolhydraatrijke maaltijden (pasta, rijst, brood) de avond voor een zware etappe.',
+      'Breng altijd energiesnacks mee: noten, energierepen of gedroogd fruit voor onderweg.',
+      'Drinkwater: in de Alpen is bronwater vaak drinkbaar — vraag altijd aan uw gids of een lokale bewoner.',
+      'In berghutten: lunchmenu is vaak groter en goedkoper dan het avondmenu. Plan hierop als budget een rol speelt.',
+      'Lokale specialiteiten proeven hoort bij de ervaring: Tiroler Gröstl in Oostenrijk, pintxos in Spanje, brunost in Noorwegen.',
     ],
   },
   {
@@ -109,11 +111,11 @@ const sections = [
     icon: MapPin,
     title: 'Vervoer en oriëntatie',
     tips: [
-      'Wij regelen alle transfers die in uw pakket zijn opgenomen. Buiten de programmatijden zijn openbaar vervoer apps (zoals Google Maps) uw beste vriend.',
-      'In Londen: de Underground (metro) is de snelste manier om te reizen. Koop een Oyster Card of gebruik uw betaalpas direct.',
-      'In Barcelona: de metro is efficiënt en betaalbaar. T-Casual kaartjes zijn kostenefficiënt voor meerdere ritten.',
-      'In Parijs: de métro is uitgebreid en relatief goedkoop. Een carnet (boekje met 10 tickets) is de meest voordelige optie.',
-      'Taxi-apps als Uber zijn actief in bijna alle Europese steden en zijn een betrouwbare terugvaloptie.',
+      'Wij regelen alle transfers die in uw pakket zijn opgenomen. Buiten de programmatijden zijn navigatie-apps uw beste vriend.',
+      'Download offline kaarten (Google Maps of Maps.me) voor uw bestemming — berg- en bosgebieden hebben zelden mobiel bereik.',
+      'Fietsers: controleer altijd of uw fiets vervoer is inbegrepen bij vluchten of treinen — dit vereist soms een aparte boeking.',
+      'Moto-reizigers: controleer rijbewijsvereisten per land en of uw verzekering internationale dekking biedt.',
+      'Taxi-apps als Bolt zijn actief in bijna alle Europese steden en zijn een betrouwbare terugvaloptie.',
     ],
   },
 ]
@@ -129,10 +131,10 @@ export default function TipsPage() {
             <span className="text-primary font-display font-semibold text-xs uppercase tracking-widest">Praktische informatie</span>
           </div>
           <h1 className="font-display font-extrabold text-5xl sm:text-6xl uppercase text-foreground leading-none text-balance mb-4">
-            Reizigersgids <span className="text-primary">sporttochten</span>
+            Reizigersgids <span className="text-primary">actieve tours</span>
           </h1>
           <p className="text-muted-foreground font-sans text-base max-w-xl leading-relaxed">
-            Alles wat u moet weten voor een zorgeloos sportweekend in Nederland of Europa — van inpakken tot culturele etiquette.
+            Alles wat u moet weten voor een zorgeloze actieve tour in Nederland of Europa — van inpakken en voorbereiding tot culturele etiquette en veiligheid in de bergen.
           </p>
         </div>
       </div>

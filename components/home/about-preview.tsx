@@ -5,15 +5,15 @@ import Image from 'next/image'
 const values = [
   {
     title: 'Lokale expertise',
-    description: 'Onze gidsen kennen elke stad als hun broekzak — van de beste pre-match café tot het snelste uitlooproute na de wedstrijd.',
+    description: 'Onze gidsen kennen elke route als hun broekzak — van de beste rustplaatsen onderweg tot de mooiste panoramastopmomenten.',
   },
   {
     title: 'Zorgeloos reizen',
-    description: 'Vervoer, hotel, kaartjes — alles is voor u geregeld. U hoeft alleen te genieten van de wedstrijd en de sfeer.',
+    description: 'Vervoer, accommodatie, uitrusting — alles is voor u geregeld. U hoeft alleen te genieten van het avontuur en de natuur.',
   },
   {
     title: 'Kleine groepen',
-    description: 'Geen massatoerisme. Wij werken met beperkte groepsgroottes zodat elke reis persoonlijk, vlot en onvergetelijk is.',
+    description: 'Geen massatoerisme. Wij werken met beperkte groepsgroottes zodat elke tocht persoonlijk, vlot en onvergetelijk is.',
   },
   {
     title: 'NL begeleiding',
@@ -36,11 +36,11 @@ export function AboutPreview() {
               id="about-preview-heading"
               className="font-display font-extrabold text-4xl sm:text-5xl uppercase text-foreground leading-none mb-6 text-balance"
             >
-              Sport &amp; reizen,<br />
+              Actief &amp; zorgeloos,<br />
               <span className="text-primary">perfect gecombineerd</span>
             </h2>
             <p className="text-muted-foreground font-sans leading-relaxed mb-8">
-              NetherlandsMatchTours is opgericht door een team van gepassioneerde sportfans en ervaren reisorganisatoren. Onze missie is simpel: u de beste sportervaringen van Nederland en Europa bieden, zonder dat u zelf ook maar één kaartje of hotel hoeft te regelen. Van de eerste aanvraag tot de terugreis naar huis — wij staan voor u klaar.
+              NetherlandsMatchTours is opgericht door een team van ervaren reisorganisatoren en buitensportliefhebbers. Onze missie is simpel: u de mooiste actieve tochten van Nederland en Europa bieden, zonder dat u zelf ook maar één boeking of route hoeft te regelen. Van de eerste aanvraag tot de terugreis naar huis — wij staan voor u klaar.
             </p>
 
             {/* Values grid */}
@@ -78,7 +78,7 @@ export function AboutPreview() {
             {/* Floating badge */}
             <div className="absolute -top-4 -left-4 bg-primary text-primary-foreground p-4">
               <p className="font-display font-extrabold text-3xl leading-none">8+</p>
-              <p className="font-display font-semibold text-xs uppercase tracking-wide mt-1">Sporttochten</p>
+              <p className="font-display font-semibold text-xs uppercase tracking-wide mt-1">Actieve tours</p>
             </div>
           </div>
         </div>

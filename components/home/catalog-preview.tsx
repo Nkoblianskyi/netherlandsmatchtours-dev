@@ -19,7 +19,7 @@ export function CatalogPreview() {
             id="catalog-preview-heading"
             className="font-display font-extrabold text-4xl sm:text-5xl uppercase text-foreground text-balance leading-none"
           >
-            Populaire <span className="text-primary">sporttochten</span>
+            Populaire <span className="text-primary">tours</span>
           </h2>
         </div>
         <Link
@@ -46,10 +46,15 @@ export function CatalogPreview() {
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              {/* Country badge */}
+              {/* TourType badge */}
               <div className="absolute top-3 left-3 bg-background/80 backdrop-blur-sm px-2 py-1">
                 <span className="text-xs font-display font-semibold uppercase tracking-wide text-foreground">
-                  {tour.country}
+                  {tour.tourType}
+                </span>
+              </div>
+              <div className="absolute top-3 right-3 bg-primary/90 px-2 py-1">
+                <span className="text-xs font-display font-semibold uppercase tracking-wide text-primary-foreground">
+                  {tour.difficulty}
                 </span>
               </div>
             </div>

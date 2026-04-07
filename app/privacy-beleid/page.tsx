@@ -50,7 +50,7 @@ export default function PrivacyBeleidPage() {
               {[
                 {
                   cat: 'Contactgegevens',
-                  items: ['Naam en achternaam', 'E-mailadres',  'Inhoud van uw bericht'],
+                  items: ['Naam en achternaam', 'E-mailadres', 'Telefoonnummer (optioneel)', 'Inhoud van uw bericht'],
                   purpose: 'Voor het beantwoorden van vragen en verwerken van boekingsaanvragen.',
                 },
                 {

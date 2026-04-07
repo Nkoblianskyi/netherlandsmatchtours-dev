@@ -8,21 +8,22 @@ import { Calendar, MapPin, Users, ArrowRight, SlidersHorizontal } from 'lucide-r
 import type { Tour } from '@/lib/tours'
 
 const categories = [
-  { value: 'all', label: 'Alle landen' },
-  { value: 'nederland', label: 'Nederland' },
-  { value: 'engeland', label: 'Engeland' },
-  { value: 'spanje', label: 'Spanje' },
-  { value: 'duitsland', label: 'Duitsland' },
-  { value: 'italie', label: 'Italië' },
-  { value: 'frankrijk', label: 'Frankrijk' },
-  { value: 'europe', label: 'Europa' },
+  { value: 'all', label: 'Alle types' },
+  { value: 'fietsen', label: 'Fietsen' },
+  { value: 'wandelen', label: 'Wandelen & Trekken' },
+  { value: 'moto', label: 'Moto' },
+  { value: 'mountainbike', label: 'Mountainbike' },
+  { value: 'meerdaags', label: 'Meerdaagse Trek' },
 ]
 
 const durations = [
   { value: 'all', label: 'Alle duur' },
   { value: '2', label: '2 dagen' },
   { value: '3', label: '3 dagen' },
-  { value: '7', label: '7 dagen' },
+  { value: '4', label: '4 dagen' },
+  { value: '5', label: '5 dagen' },
+  { value: '6', label: '6 dagen' },
+  { value: '8', label: '8 dagen' },
 ]
 
 const difficulties = [
@@ -47,7 +48,7 @@ function TourCard({ tour }: { tour: Tour }) {
         />
         <div className="absolute top-3 left-3 bg-background/80 backdrop-blur-sm px-2 py-1">
           <span className="text-xs font-display font-semibold uppercase tracking-wide text-foreground">
-            {tour.country}
+            {tour.tourType}
           </span>
         </div>
         <div className="absolute top-3 right-3 bg-primary/90 px-2 py-1">
@@ -113,10 +114,10 @@ export default function ToursPage() {
             <span className="text-primary font-display font-semibold text-xs uppercase tracking-widest">Ons aanbod</span>
           </div>
           <h1 className="font-display font-extrabold text-5xl sm:text-6xl uppercase text-foreground leading-none text-balance">
-            Alle <span className="text-primary">sporttochten</span>
+            Alle <span className="text-primary">tours</span>
           </h1>
           <p className="text-muted-foreground font-sans text-base mt-4 max-w-xl leading-relaxed">
-            Ontdek ons volledige aanbod aan sporttochten door Nederland en Europa — volledig verzorgd, zonder gedoe.
+            Ontdek ons volledige aanbod aan actieve tours — fietsen, wandelen, moto, mountainbike en meerdaagse treks — door Nederland en Europa.
           </p>
         </div>
       </div>
@@ -135,7 +136,7 @@ export default function ToursPage() {
           <div className={`flex flex-col md:flex-row gap-4 ${filtersOpen ? 'flex' : 'hidden md:flex'}`}>
             {/* Category */}
             <div className="flex flex-col gap-1 flex-1">
-              <label className="text-xs font-display uppercase tracking-widest text-muted-foreground">Land</label>
+              <label className="text-xs font-display uppercase tracking-widest text-muted-foreground">Type</label>
               <select
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}

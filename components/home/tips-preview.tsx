@@ -4,26 +4,26 @@ import { ArrowRight, Luggage, Clock, Camera, Wind } from 'lucide-react'
 const tips = [
   {
     icon: Luggage,
-    title: 'Pak slim in voor een sportweekend',
-    excerpt: 'Een supporterssjaal, comfortabele schoenen en een lichte regenjas zijn onmisbaar. Wij vertellen u precies wat u per bestemming nodig heeft.',
+    title: 'Pak slim in voor een sporttocht',
+    excerpt: 'Lichtgewicht kleding, stevige schoenen en een compacte regenlaag zijn de basis. Wij vertellen u precies wat u per tour type nodig heeft.',
     href: '/tips#inpakken',
   },
   {
     icon: Clock,
-    title: 'Hoe vroeg moet u aanwezig zijn?',
-    excerpt: 'Europese stadions hebben striktere veiligheidscontroles dan in Nederland. Kom minstens 90 minuten voor aftrap aan bij de poort.',
-    href: '/tips#aankomst',
+    title: 'Training en voorbereiding',
+    excerpt: 'Een goede basisconditie maakt het verschil. Wij geven u een persoonlijk voorbereidingsschema per tour zodat u optimaal geniet van elke etappe.',
+    href: '/tips#voorbereiding',
   },
   {
     icon: Camera,
-    title: 'Fotograferen in het stadion: wat mag?',
-    excerpt: 'Compact cameras en smartphones zijn bijna altijd toegestaan, maar losse lenzen worden verboden. Bekijk onze bestemming-per-bestemming gids.',
+    title: 'Fotograferen onderweg: tips',
+    excerpt: 'De mooiste shots zijn op bergpassen en bij zonsopgang. Leer hoe u uw smartphone optimaal benut zonder de groep op te houden.',
     href: '/tips#fotograferen',
   },
   {
     icon: Wind,
     title: 'Weersomstandigheden in Europa',
-    excerpt: 'Van de regen in Londen tot de hitte in Barcelona — wij geven u per tour het perfecte kledingreisadvies voor een comfortabel weekend.',
+    excerpt: 'Van de Alpenkoude tot de hitte van Andalusië — per tour geven wij u klimaatadvies en kledingtips voor optimaal comfort onderweg.',
     href: '/tips#weer',
   },
 ]

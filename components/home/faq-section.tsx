@@ -5,16 +5,16 @@ import { Plus, Minus } from 'lucide-react'
 
 const faqs = [
   {
-    q: 'Zijn de kaartjes inbegrepen in de tourprijs?',
-    a: 'Ja, elk pakket bevat één of meerdere wedstrijdkaartjes. De categorie van de zitplaats staat per tour omschreven. Wij zorgen voor de volledige reservering — u hoeft niets zelf te regelen.',
+    q: 'Wat is er inbegrepen in een sporttourpakket?',
+    a: 'Elk pakket bevat minimaal vervoer, accommodatie en begeleiding. Aanvullende elementen zoals deelname-inschrijving, maaltijden en bagagetransport staan per tour duidelijk omschreven op de tourpagina.',
   },
   {
-    q: 'Wat als de wedstrijd wordt afgelast of uitgesteld?',
-    a: 'Bij officiële afgelasting door de organisatie bieden wij u een volledige terugbetaling of omboekingsmogelijkheid. Wij volgen de officiële competitiecommunicatie en houden u direct op de hoogte.',
+    q: 'Wat als ik mij moet afmelden wegens blessure of ziekte?',
+    a: 'Wij adviseren een annuleringsverzekering af te sluiten voor vertrek. Bij annulering tot 4 weken voor vertrek ontvangt u 70% restitutie. Neem bij noodgevallen altijd direct contact op — wij zoeken altijd naar een passende oplossing.',
   },
   {
     q: 'Kan ik solo deelnemen aan een tour?',
-    a: 'Absoluut. Veel van onze deelnemers reizen solo. Onze begeleide groepstours zorgen ervoor dat u nooit alleen staat — u wordt onderdeel van een enthousiaste groep medereizenden.',
+    a: 'Absoluut. Veel van onze deelnemers reizen solo. Onze begeleide groepstours zorgen ervoor dat u nooit alleen staat — u wordt onderdeel van een enthousiaste groep medereizenden met dezelfde sportpassie.',
   },
   {
     q: 'Is er een minimumleeftijd voor de tours?',
@@ -22,15 +22,15 @@ const faqs = [
   },
   {
     q: 'Hoe vroeg moet ik boeken?',
-    a: 'Wij adviseren minimaal 6–8 weken voor vertrekdatum te reserveren, zeker voor populaire wedstrijden. Sommige tours met beperkte capaciteit zijn al maanden van tevoren volgeboekt.',
+    a: 'Wij adviseren minimaal 6–8 weken voor vertrekdatum te reserveren. Sommige tours met beperkte groepsgrootte zijn al maanden van tevoren volgeboekt — vroeg reserveren is altijd aan te raden.',
   },
   {
     q: 'Welke taal wordt er gesproken tijdens de begeleiding?',
-    a: 'Al onze tours worden begeleid in het Nederlands. Sommige gidsen op locatie spreken ook Engels. U hoeft uzelf geen zorgen te maken over communicatie in het buitenland.',
+    a: 'Al onze tours worden begeleid in het Nederlands. Sommige lokale gidsen spreken ook Engels. U hoeft uzelf geen zorgen te maken over communicatie in het buitenland.',
   },
   {
-    q: 'Zijn maaltijden inbegrepen?',
-    a: 'Dit verschilt per tour. Alle pakketten met inbegrepen maaltijden zijn duidelijk aangegeven op de tourpagina. Bij twijfel helpen wij u graag verder via ons contactformulier.',
+    q: 'Welk fitnessniveau is vereist?',
+    a: 'Dit verschilt per tour — elke pagina toont een duidelijke moeilijkheidsgraad (Makkelijk, Gemiddeld of Intensief). Wij sturen u na boeking een persoonlijk voorbereidingsschema om optimaal voorbereid te vertrekken.',
   },
 ]
 

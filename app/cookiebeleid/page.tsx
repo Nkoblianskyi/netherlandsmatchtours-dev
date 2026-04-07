@@ -18,7 +18,7 @@ export default function CookiebeleidPage() {
           <h1 className="font-display font-extrabold text-5xl uppercase text-foreground leading-none">
             Cookie<span className="text-primary">beleid</span>
           </h1>
-          <p className="text-muted-foreground font-sans text-sm mt-3">Laatste wijziging: 2026</p>
+          <p className="text-muted-foreground font-sans text-sm mt-3">Laatste wijziging:2026</p>
         </div>
       </div>
 

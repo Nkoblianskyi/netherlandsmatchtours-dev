@@ -52,13 +52,13 @@ export function TourDetailClient({ tour, relatedTours }: Props) {
 
         <div className="absolute top-6 right-4 md:right-8 z-10">
           <span className="bg-primary text-primary-foreground font-display font-bold text-xs uppercase tracking-widest px-3 py-1.5">
-            {tour.country}
+            {tour.tourType}
           </span>
         </div>
 
         <div className="absolute bottom-0 left-0 right-0 px-4 md:px-8 pb-8 z-10">
           <p className="font-display text-primary uppercase tracking-[0.25em] text-sm mb-2">
-            Sporttour
+            {tour.tourType}
           </p>
           <h1
             className="font-display font-extrabold uppercase text-foreground leading-none text-balance"
@@ -217,7 +217,7 @@ export function TourDetailClient({ tour, relatedTours }: Props) {
         <div className="border-t border-border pt-12">
           <div className="flex items-center justify-between mb-7">
             <h2 className="font-display font-extrabold uppercase text-foreground text-2xl md:text-3xl">
-              Andere <span className="text-primary">sporttochten</span>
+              Andere <span className="text-primary">tours</span>
             </h2>
             <Link
               href="/tours"
@@ -242,7 +242,7 @@ export function TourDetailClient({ tour, relatedTours }: Props) {
                   />
                   <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-background/80 to-transparent" />
                   <span className="absolute bottom-3 left-3 text-xs font-display uppercase tracking-widest text-primary bg-background/70 px-2 py-0.5">
-                    {t.country}
+                    {t.tourType}
                   </span>
                 </div>
                 <div className="p-4 flex flex-col gap-1">

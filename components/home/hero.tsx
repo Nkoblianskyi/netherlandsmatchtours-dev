@@ -5,14 +5,14 @@ import { ArrowRight } from 'lucide-react'
 export function Hero() {
   return (
     <section
-      className="relative min-h-[92vh] flex items-end pb-14 pt-14 overflow-hidden"
+      className="relative min-h-[92vh] flex items-end pb-16 pt-28 overflow-hidden"
       aria-label="Welkomstbanner"
     >
       {/* Background image */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero-bg.jpg"
-          alt="Voetbalstadion met een volle tribune bij avond"
+          alt="Wielrenners op een spectaculaire bergpas bij zonsondergang"
           fill
           className="object-cover object-center"
           priority
@@ -29,7 +29,7 @@ export function Hero() {
               key={i}
               className="font-display font-bold text-primary/30 text-3xl uppercase tracking-[0.3em] mx-8 shrink-0"
             >
-              Nederland &bull; Europa &bull; Sporttochten
+              Fietsen &bull; Wandelen &bull; Mototochten &bull; Mountainbike &bull; Bergtrek
             </span>
           ))}
         </div>
@@ -41,18 +41,18 @@ export function Hero() {
         <div className="inline-flex items-center gap-2 mb-4">
           <div className="h-px w-8 bg-primary" />
           <span className="text-primary font-display font-semibold text-sm uppercase tracking-widest">
-            Sporttochten Nederland &amp; Europa
+            Actieve tours Nederland &amp; Europa
           </span>
         </div>
 
         {/* Headline */}
         <h1 className="font-display font-extrabold text-5xl sm:text-6xl md:text-7xl leading-none uppercase text-balance text-foreground mb-6">
-          Jouw plek<br />
-          <span className="text-primary">op de tribune.</span>
+          Avontuur<br />
+          <span className="text-primary">begint hier.</span>
         </h1>
 
         <p className="font-sans text-base sm:text-lg text-muted-foreground max-w-xl leading-relaxed mb-8">
-          Van Amsterdam tot Barcelona — wij organiseren sporttochten die verder gaan dan alleen de wedstrijd. Volledig verzorgde pakketten, echte sportsfeer en onvergetelijke herinneringen.
+          Van de Zeeuwse kust tot de Alpentoppen — wij organiseren actieve tours met aandacht voor route, comfort en beleving. Volledig verzorgde pakketten en onvergetelijke herinneringen.
         </p>
 
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
@@ -73,7 +73,7 @@ export function Hero() {
         {/* Stats bar */}
         <div className="mt-12 flex flex-wrap gap-6 sm:gap-10">
           {[
-            { value: '8+', label: 'Sporttochten' },
+            { value: '8+', label: 'Tours' },
             { value: '6', label: 'Europese landen' },
             { value: '100%', label: 'Verzorgd pakket' },
             { value: 'NL', label: 'Begeleiding' },
